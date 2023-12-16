@@ -1,0 +1,77 @@
+:root {
+  margin: 0;
+  padding: 0;
+  color-scheme: dark light;
+  box-sizing: border-box;
+}
+
+#canvas {
+  top: 50%;
+  left: 50%;
+  border: 5px solid black;
+  transform: translate(50%, 7%);
+}
+#randomizeButton {
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  background-color: #385f89;
+  width: 10%;
+  height: 5%;
+  border-radius: 5px;
+}
+#randomizeButton:hover {
+  background-color: #cc5d36;
+}
+#exportPDFButton {
+  position: absolute;
+  top: 57%;
+  left: 8%;
+  background-color: #385f89;
+  width: 10%;
+  height: 5%;
+  border-radius: 5px;
+}
+#exportPDFButton:hover {
+  background-color: #cc5d36;
+}
+#exportImageButton {
+  position: absolute;
+  top: 64%;
+  left: 8%;
+  background-color: #385f89;
+  width: 10%;
+  height: 5%;
+  border-radius: 5px;
+}
+
+#exportImageButton:hover {
+  background-color: #cc5d36;
+}
+.colorApply {
+  position: absolute;
+  top: 71%;
+  left: 8%;
+  width: 10%;
+  height: 5%;
+  border-radius: 5px;
+}
+#applyColorButton {
+  position: absolute;
+  top: 78%;
+  left: 8%;
+  background-color: #385f89;
+  width: 10%;
+  height: 5%;
+  border-radius: 5px;
+}
+
+#applyColorButton:hover {
+  background-color: #cc5d36;
+}
+
+#canvas2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
